@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Project 1: Navigation</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="project-1-navigation">Project 1: Navigation</h1>
+<h2 id="project-details">Project Details</h2>
+<h3 id="action-space">Action Space</h3>
+<p>0 - walk forward
+1 - walk backward
+2 - turn left
+3 - turn right</p>
+<h3 id="state-space">State Space</h3>
+<p>The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction. A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.</p>
+<h3 id="environment-solution">Environment Solution</h3>
+<p>The environment can be considered solved when getting an average score of at least +13 over 100 consecutive episodes.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>The requirements for the code are pytorch version 0.4 and open AI gym 0.4 on python 3.6.</p>
+<p>To run the code, you run each of the cells in the <code>Navigation.ipynb</code> file in sequence, with the exception of the &quot;take random actions&quot; code cell.</p>
+<h1 id="report">Report</h1>
+<h2 id="learning-algorithm">Learning Algorithm</h2>
+<p>The report clearly describes the learning algorithm, along with the chosen hyperparameters. It also describes the model architectures for any neural networks.</p>
+<p>The learning algorithmed used was a double DQN that used the online network to choose actions, but the target network to evaluate those actions. No other changes were made beyond this to the basic DQN algorithm.</p>
+<h2 id="plot-of-rewards">Plot of Rewards</h2>
+<p><img src="file:///d:\Projects\deep-rl-udacity-projects\p1\score_history.png" alt=""></p>
+<p>The algorithm surpasses the +13 benchmark fairly early on in its training cycle and continues to grow in average rewards past it.</p>
+<p>A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13. The submission reports the number of episodes needed to solve the environment.</p>
+<h2 id="ideas-for-future-work">Ideas for Future Work</h2>
+<p>A future improvement to the work would be to add prioritized experience replay to utilize the actions with the most significant impacts on learning. Many of the steps in this algorithm don't go anywhere or contribute meaningfully to learning and be de-prioritized. Steps that  run into walls or bananas contain more information to learn from and should be prioritized.</p>
+
+    </body>
+    </html>

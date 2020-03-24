@@ -2,3 +2,6 @@ unity-environment.log
 .vscode/*
 p1/Banana_Windows_x86_64/*
 __pycache__/*
+p2/Reacher/*
+p2/Reacher_Windows_x86_64.zip
+.ipynb_checkpoints/*

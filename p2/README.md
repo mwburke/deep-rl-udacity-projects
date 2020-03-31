@@ -45,15 +45,6 @@ Dimension sizes:
 - Hidden layer: 128
 - Output: 8
 
-#### Actor
-
-Dimension sizes:
-
-- Input: 33
-- Hidden layer: 128 with batch normalization
-- Hidden layer: 128
-- Output: 8
-
 #### Critic
 
 Dimension sizes:

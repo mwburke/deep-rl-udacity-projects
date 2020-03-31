@@ -1,2 +1,3 @@
-# deep-reinforcement-learning-udacity
-Personal repo for deep reinforcement learning nanodegree from udacity
+# Udacity Deep Reinforcement Learning Course Projects
+
+These are the module projects to turn in for the DRL course.

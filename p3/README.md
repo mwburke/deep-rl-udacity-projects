@@ -72,15 +72,15 @@ The number of episodes required to reach an average score of +0.5 over 100 conse
 ### Score History
 
 ```
-Episode 100	    Average Score: 0.004	Episode Score: 0.000
-Episode 200	    Average Score: 0.000	Episode Score: 0.000
-Episode 300	    Average Score: 0.008	Episode Score: 0.000
-Episode 400	    Average Score: 0.008	Episode Score: 0.000
-Episode 500	    Average Score: 0.023	Episode Score: 0.000
-Episode 600	    Average Score: 0.017	Episode Score: 0.100
-Episode 700	    Average Score: 0.024	Episode Score: 0.000
-Episode 800	    Average Score: 0.034	Episode Score: 0.000
-Episode 900	    Average Score: 0.053	Episode Score: 0.000
+Episode 100	Average Score: 0.004	Episode Score: 0.000
+Episode 200	Average Score: 0.000	Episode Score: 0.000
+Episode 300	Average Score: 0.008	Episode Score: 0.000
+Episode 400	Average Score: 0.008	Episode Score: 0.000
+Episode 500	Average Score: 0.023	Episode Score: 0.000
+Episode 600	Average Score: 0.017	Episode Score: 0.100
+Episode 700	Average Score: 0.024	Episode Score: 0.000
+Episode 800	Average Score: 0.034	Episode Score: 0.000
+Episode 900	Average Score: 0.053	Episode Score: 0.000
 Episode 1000	Average Score: 0.073	Episode Score: 0.000
 Episode 1100	Average Score: 0.068	Episode Score: 0.100
 Episode 1200	Average Score: 0.075	Episode Score: 0.000
